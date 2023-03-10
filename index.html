@@ -4,8 +4,135 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <title>Document</title>
+    <link
+      rel="shortcut icon"
+      href="./assets/metal3-icon-color.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <title>Metal3.io</title>
   </head>
-  <body></body>
+  <body>
+    <div class="navbar">
+      <div class="navbar-center">
+        <a class="what" href="#what">What is Metal<sup>3</sup>?</a>
+        <a class="why" href="#why">Why Metal<sup>3</sup>?</a>
+        <a class="components" href="#components"
+          >Metal<sup>3</sup> Components</a
+        >
+      </div>
+    </div>
+    <div class="hero"></div>
+    <div class="page-one-outer" id="what">
+      <h1>What is Metal<sup>3</sup>?</h1>
+      <div class="page-one">
+        <div class="page-one-left">
+          <h1>What is Metal<sup>3</sup>?</h1>
+          <p>
+            Metal Kubed provides components that allow you to do bare metal host
+            management for Kubernetes. It works as a Kubernetes application
+            meaning it runs on Kubernetes and is managed through Kubernetes
+            interfaces.
+          </p>
+        </div>
+        <div class="page-one-right">
+          <h1>Metal<sup>3</sup> in one line:</h1>
+          <p>Bare metal host provisioning for Kubernetes.</p>
+        </div>
+      </div>
+    </div>
+    <div class="page-two" id="why">
+      <h1>Why Metal<sup>3</sup>?</h1>
+      <div class="page-two_inner">
+        <div class="page-two_inner1">
+          <div class="reason">
+            <h1>Reason 1</h1>
+            <p>
+              There are a number of great open-source tools for bare metal host
+              provisioning, including Ironic. Metal3 aims to build on these
+              technologies to provide a Kubernetes native API for managing bare
+              metal hosts via a provisioning stack that is also running on
+              Kubernetes.
+            </p>
+          </div>
+          <div class="reason">
+            <h1>Reason 2</h1>
+            <p>
+              The project is also building integration with the Kubernetes
+              cluster-api project, allowing Metal3 to be used as an
+              infrastructure backend for Machine objects from the Cluster API.
+            </p>
+          </div>
+        </div>
+        <div class="page-two_inner2">
+          <div class="reason">
+            <h1>Reason 3</h1>
+            <p>
+              Metal3 is itself a Kubernetes application, so it runs on
+              Kubernetes and uses Kubernetes resources and APIs as its
+              interface.
+            </p>
+          </div>
+          <div class="reason">
+            <h1>Reason 4</h1>
+            <p>
+              The Metal project provides components for bare metal host
+              management with Kubernetes. You can enroll your bare metal
+              machines, and then, if you like, deploy Kubernetes clusters to
+              them. From there, operating and upgrading your Kubernetes clusters
+              can be handled by Metal3.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="page-three" id="components">
+      <h1>Metal<sup>3</sup> Components</h1>
+      <div class="page-three_flex">
+        <div class="card">Bare Metal Actuator</div>
+        <div class="card">Bare Metal Operator</div>
+        <div class="card">Bare Metal Management Pods</div>
+      </div>
+      <div class="page-three_social">
+        <a href="https://metal3.io/" target="_blank">Official Website</a>
+        <a href="https://metal3.io/documentation.html" target="_blank"
+          >Documentation</a
+        >
+        <a href="https://book.metal3.io/introduction.html" target="_blank"
+          >User Guide</a
+        >
+        <a href="https://github.com/metal3-io" target="_blank">Repository</a>
+      </div>
+    </div>
+    <div class="footer">
+      <div class="footer-left">
+        <a href="https://github.com/iamatifmoin" class="git" target="_blank"
+          >GitHub</a
+        >
+        |
+        <a
+          href="https://www.linkedin.com/in/atifmoin/"
+          class="linkedin"
+          target="_blank"
+          >LinkedIn</a
+        >
+        |
+        <a class="no-pointer">Made by Atif Moin</a>
+      </div>
+      <div class="footer-right">
+        <a
+          href="https://docs.google.com/document/d/1XcZJggfeZ8E7F2UoEJe0pXMCNdCPweyAW5S7WDzbZ30/edit?usp=sharing"
+          class="doc"
+          target="_blank"
+          >View Document with Full Details</a
+        >
+      </div>
+    </div>
+  </body>
 </html>

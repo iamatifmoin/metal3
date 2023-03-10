@@ -1,0 +1,283 @@
+html {
+  background-color: #03001c;
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+  .navbar {
+    display: flex;
+    flex-direction: row;
+    background-color: #301e67;
+    border-radius: 1em;
+    width: 100%;
+    margin-top: 1em;
+    height: 5em;
+    .navbar-center {
+      display: flex;
+      width: 100%;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+
+      gap: 10em;
+      padding: 1em;
+      a {
+        text-decoration: none;
+        color: #fff;
+        font-weight: 900;
+        font-size: 1.5em;
+        cursor: pointer;
+        transition: all 0.3s;
+        &:hover {
+          transform: scale(1.1);
+        }
+      }
+    }
+  }
+  .hero {
+    border-radius: 4em;
+    background-color: #5b8fb9;
+    width: 100%;
+    height: 84vh;
+    margin-top: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 2em;
+  }
+  .page-one-outer {
+    border-radius: 4em;
+    background-color: #5b8fb9;
+    width: 100%;
+    height: 96vh;
+    margin-top: 1em;
+    h1 {
+      text-align: center;
+      position: relative;
+      top: 1em;
+    }
+    .page-one {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: row;
+      gap: 2em;
+      position: relative;
+      top: 8em;
+      .page-one-left {
+        margin-left: 2em;
+        padding: 2em;
+        border-radius: 6em;
+        height: 30vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        background-color: #b6eada;
+        transition: all 0.3s;
+        &:hover {
+          transform: scale(1.05);
+        }
+      }
+      .page-one-right {
+        margin-right: 2em;
+        padding: 2em;
+
+        border-radius: 6em;
+        height: 30vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        background-color: #b6eada;
+        transition: all 0.3s;
+        &:hover {
+          transform: scale(1.05);
+        }
+      }
+    }
+  }
+  .page-two {
+    border-radius: 4em;
+    background-color: #5b8fb9;
+    width: 100%;
+    height: 96vh;
+    margin-top: 1em;
+    align-items: center;
+    justify-self: center;
+    justify-content: center;
+    justify-items: center;
+    h1 {
+      text-align: center;
+      position: relative;
+      top: 1em;
+    }
+    .page-two_inner {
+      position: relative;
+      top: 2em;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      gap: 2em;
+      .page-two_inner1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        margin-left: 1em;
+        margin-right: 1em;
+        gap: 2em;
+        .reason {
+          padding: 2em;
+          border-radius: 6em;
+          height: 25vh;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+          width: 100%;
+          background-color: #b6eada;
+          transition: all 0.3s;
+          &:hover {
+            transform: scale(1.05);
+          }
+        }
+      }
+      .page-two_inner2 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        margin-left: 1em;
+        margin-right: 1em;
+        gap: 2em;
+        .reason {
+          padding: 2em;
+          border-radius: 6em;
+          height: 25vh;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+          width: 100%;
+          background-color: #b6eada;
+          transition: all 0.3s;
+          &:hover {
+            transform: scale(1.05);
+          }
+        }
+      }
+    }
+  }
+}
+
+.page-three {
+  border-radius: 4em;
+  background-color: #5b8fb9;
+  width: 100%;
+  height: 84vh;
+  margin-top: 1em;
+  h1 {
+    text-align: center;
+    position: relative;
+    top: 1em;
+  }
+  .page-three_flex {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 1em;
+    margin-right: 1em;
+    gap: 2em;
+    .card {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 900;
+      margin-top: 4em;
+      margin-bottom: 4em;
+      padding-top: 4em;
+      padding-bottom: 4em;
+      font-size: 1.5em;
+      background-color: #b6eada;
+      border-radius: 4em;
+      width: 100%;
+      height: 10vh;
+      transition: all 0.3s;
+      &:hover {
+        transform: scale(1.05);
+      }
+    }
+  }
+  .page-three_social {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+    a {
+      text-decoration: none;
+      font-weight: 900;
+      font-size: 1.5em;
+      color: #fff;
+      cursor: pointer;
+      transition: all 0.3s;
+      &:hover {
+        transform: scale(1.1);
+      }
+    }
+  }
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  background-color: #301e67;
+  border-radius: 1em;
+  width: 100%;
+  margin-top: 1em;
+  margin-bottom: 1em;
+
+  height: 5em;
+  .footer-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+    width: 100%;
+    a {
+      text-decoration: none;
+      font-weight: 900;
+      font-size: 1.5em;
+      color: #fff;
+      cursor: pointer;
+      transition: all 0.3s;
+      &:hover {
+        transform: scale(1.1);
+      }
+    }
+    .no-pointer {
+      cursor: default;
+    }
+  }
+  .footer-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    a {
+      text-decoration: none;
+      font-weight: 900;
+      font-size: 1.5em;
+      color: #fff;
+      cursor: pointer;
+      transition: all 0.3s;
+      &:hover {
+        transform: scale(1.1);
+      }
+    }
+  }
+}
