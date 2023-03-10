@@ -5,7 +5,7 @@ html {
   .navbar {
     display: flex;
     flex-direction: row;
-    background-color: #301e67;
+    background-color: #00eec4;
     border-radius: 1em;
     width: 100%;
     margin-top: 1em;
@@ -34,7 +34,7 @@ html {
   }
   .hero {
     border-radius: 4em;
-    background-color: #5b8fb9;
+    background-color: #0d4c92;
     width: 100%;
     height: 84vh;
     margin-top: 1em;
@@ -43,10 +43,40 @@ html {
     align-items: center;
     flex-direction: row;
     gap: 2em;
+    .hero-section1 {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      img {
+        transition: all 0.3s;
+        &:hover {
+          transform: scale(1.1);
+        }
+      }
+    }
+    .hero-section2 {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      h1 {
+        font-weight: 900;
+        font-size: 6em;
+        position: relative;
+        right: 1em;
+      }
+      p {
+        position: relative;
+        right: 9.3em;
+        bottom: 6em;
+      }
+    }
   }
   .page-one-outer {
     border-radius: 4em;
-    background-color: #5b8fb9;
+    background-color: #0d4c92;
     width: 100%;
     height: 96vh;
     margin-top: 1em;
@@ -73,7 +103,11 @@ html {
         align-items: center;
         flex-direction: column;
         width: 100%;
-        background-color: #b6eada;
+        background-color: #00d1bd;
+        border: solid 8px white;
+        h1 {
+          margin-bottom: 3em;
+        }
         transition: all 0.3s;
         &:hover {
           transform: scale(1.05);
@@ -82,7 +116,9 @@ html {
       .page-one-right {
         margin-right: 2em;
         padding: 2em;
-
+        h1 {
+          margin-bottom: 3em;
+        }
         border-radius: 6em;
         height: 30vh;
         display: flex;
@@ -90,7 +126,9 @@ html {
         align-items: center;
         flex-direction: column;
         width: 100%;
-        background-color: #b6eada;
+        background-color: #00d1bd;
+        border: solid 8px white;
+
         transition: all 0.3s;
         &:hover {
           transform: scale(1.05);
@@ -100,7 +138,7 @@ html {
   }
   .page-two {
     border-radius: 4em;
-    background-color: #5b8fb9;
+    background-color: #0d4c92;
     width: 100%;
     height: 96vh;
     margin-top: 1em;
@@ -138,7 +176,9 @@ html {
           align-items: center;
           flex-direction: column;
           width: 100%;
-          background-color: #b6eada;
+          background-color: #00d1bd;
+          border: solid 8px white;
+
           transition: all 0.3s;
           &:hover {
             transform: scale(1.05);
@@ -162,7 +202,9 @@ html {
           align-items: center;
           flex-direction: column;
           width: 100%;
-          background-color: #b6eada;
+          background-color: #00d1bd;
+          border: solid 8px white;
+
           transition: all 0.3s;
           &:hover {
             transform: scale(1.05);
@@ -172,10 +214,9 @@ html {
     }
   }
 }
-
 .page-three {
   border-radius: 4em;
-  background-color: #5b8fb9;
+  background-color: #0d4c92;
   width: 100%;
   height: 84vh;
   margin-top: 1em;
@@ -202,10 +243,14 @@ html {
       padding-top: 4em;
       padding-bottom: 4em;
       font-size: 1.5em;
-      background-color: #b6eada;
+      background-color: #00d1bd;
       border-radius: 4em;
       width: 100%;
       height: 10vh;
+      border: solid 8px white;
+      h1 {
+        margin-bottom: 1.2em;
+      }
       transition: all 0.3s;
       &:hover {
         transform: scale(1.05);
@@ -215,6 +260,8 @@ html {
   .page-three_social {
     display: flex;
     flex-direction: row;
+    text-decoration: underline;
+    text-decoration-color: #fff;
     justify-content: center;
     align-items: center;
     gap: 2em;
@@ -235,7 +282,7 @@ html {
 .footer {
   display: flex;
   flex-direction: row;
-  background-color: #301e67;
+  background-color: #00eec4;
   border-radius: 1em;
   width: 100%;
   margin-top: 1em;
