@@ -1,7 +1,19 @@
-# Metal<sup>3</sup> Mock Website
+# Metal<sup>3</sup>: Metal Kubed
 
 <p align="center">
 <img src="./assets/logo.png" width="100%" height="100%"/>
+</p>
+
+### Description
+
+Metal3 is a BareMetal host provisioning service for Kubernetes.
+<br>
+It is a self-hosted, self-managed, CNCF sandbox project and is also an infrastructure provider for the Cluster API. (K8S SIG life-cycle)
+
+# What is Metal<sup>3</sup>?
+
+<p align="center">
+<img src="./assets/second.png" width="100%" height="100%"/>
 </p>
 
 ### Get Started with Metal Kubed
@@ -12,19 +24,13 @@
 
 [User Guide](https://book.metal3.io/introduction.html)
 
-# What is Metal<sup>3</sup>?
-
-<p align="center">
-<img src="./assets/second.png" width="100%" height="100%"/>
-</p>
-
 # Metal<sup>3</sup> Components
 
-| S.No. | Name                      |
-| ----- | ------------------------- |
-| 1     | BareMetal Actuator        |
-| 2     | BareMetal Operator        |
-| 3     | BareMetal Management Pods |
+| S.No. | Name                        |
+| ----- | --------------------------- |
+| 1     | BareMetal Operator          |
+| 2     | cluster-api-provider-metal3 |
+| 3     | Ironic Image                |
 
 See more about Metal<sup>3</sup> Components [here](https://metal3.io/documentation.html).
 
@@ -83,12 +89,10 @@ A Kubernetes application is an application that is both deployed on Kubernetes a
 <br>
 [Official Documentation](https://metal3.io/documentation.html)
 <br>
-[Twitter](https://twitter.com/metal3_io)
+[GitHub Repository](https://github.com/metal3-io)
 <br>
 [Slack](https://kubernetes.slack.com/messages/CHD49TLE7)
 <br>
-[GitHub Repository](https://github.com/metal3-io)
-<br>
-[Official Documentation](https://metal3.io/documentation.html)
+[Twitter](https://twitter.com/metal3_io)
 <br>
 [YouTube](https://www.youtube.com/channel/UC_xneeYbo-Dl4g-U78xW15g/videos)
