@@ -267,7 +267,7 @@ html .page-two .page-two_inner .page-two_inner2 .reason:hover {
   display: flex;
   flex-direction: row;
   text-decoration: underline;
-  text-decoration-color: #fff;
+  text-decoration-color: black;
   justify-content: center;
   align-items: center;
   gap: 2em;
@@ -276,7 +276,7 @@ html .page-two .page-two_inner .page-two_inner2 .reason:hover {
   text-decoration: none;
   font-weight: 900;
   font-size: 1.5em;
-  color: #fff;
+  color: black;
   cursor: pointer;
   transition: all 0.3s;
 }
@@ -325,6 +325,11 @@ html .page-two .page-two_inner .page-two_inner2 .reason:hover {
   align-items: center;
   flex-direction: column;
   gap: 2em;
+}
+.hero2-section1 a {
+  text-decoration-color: black;
+  color: black;
+  font-weight: bold;
 }
 .hero2-section1 h1 {
   font-size: 2em;
@@ -443,6 +448,11 @@ html .page-two .page-two_inner .page-two_inner2 .reason:hover {
   align-items: center;
   flex-direction: column;
   gap: 2em;
+}
+.hero2-section3 a {
+  text-decoration-color: black;
+  color: black;
+  font-weight: bold;
 }
 .hero2-section3 h1 {
   font-size: 2em;

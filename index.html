@@ -157,20 +157,31 @@
       <h1>Metal<sup>3</sup> Working</h1>
       <p>
         When BMO starts, it accepts Ironic and Inspector endpoints and
-        credentials as well as deploys kernel/ramdisk URLs via environment
-        variables. Ironic and Inspector are supposed to be started and managed
+        credentials as well as deploys kernel/ramdisk URLs via
+        <a
+          href="https://github.com/metal3-io/baremetal-operator/blob/main/docs/configuration.md"
+          >environment variables</a
+        >
+        . Ironic and Inspector are supposed to be started and managed
         separately.
         <br />
         <br />
         Once started, the controller manages the BareMetalHost (BMH) CRD by
-        synchronising the changes between Kubernetes and Ironic. BMO expects to
-        completely own the nodes defined as BMH.
+        synchronising the changes between
+        <a href="https://kubernetes.io/docs/home/">Kubernetes</a>
+        and Ironic.
+        <a
+          href="https://docs.google.com/document/d/1x_SOWe20AYc-BdrMkoMtONa2LrDaKfJy8cKxvDmJJeY/edit?usp=sharing"
+          >BMO</a
+        >
+        expects to completely own the nodes defined as BMH.
         <br />
         <br />
-        It creates them in Ironic if they are missing, updates them if they
-        don't match the information it has, provisions if there is an image,
-        de-provisions if the image is removed, and deletes if the BMH is deleted
-        (or detached).
+        It creates them in
+        <a href="https://docs.openstack.org/ironic/latest/">Ironic</a>
+        if they are missing, updates them if they don't match the information it
+        has, provisions if there is an image, de-provisions if the image is
+        removed, and deletes if the BMH is deleted (or detached).
       </p>
     </div>
 
@@ -300,13 +311,24 @@
       <p>
         There is a lot of work planned in Metal<sup>3</sup>. In the near future,
         Metal<sup>3</sup>
-        wants to bring BIOS and RAID support to BMO, previews of these features
-        are already available.
+        wants to bring
+        <a
+          href="https://github.com/metal3-io/metal3-docs/blob/master/design/baremetal-operator/bios-config.md"
+          >BIOS</a
+        >
+        and
+        <a
+          href="https://github.com/metal3-io/metal3-docs/blob/master/design/baremetal-operator/raid-api.md"
+          >RAID</a
+        >
+        support to BMO, previews of these features are already available.
         <br />
         <br />
         Looking further into the future, there is a possibility of dropping
-        MySQL in favour of either SQLite or anything else that is not a
-        full-featured database.
+        <a href="https://www.mysql.com/">MySQL</a>
+        in favour of either
+        <a href="https://sqlite.org/">SQLite</a>
+        or anything else that is not a full-featured database.
       </p>
     </div>
     <div class="footer">

@@ -8,7 +8,9 @@
 
 Metal3 is a BareMetal host provisioning service for Kubernetes.
 <br>
-It is a self-hosted, self-managed, CNCF sandbox project and is also an infrastructure provider for the Cluster API. (K8S SIG life-cycle)
+It is a self-hosted, self-managed, CNCF sandbox project and is also an infrastructure provider for the Cluster API.
+<br>
+(K8S SIG life-cycle)
 
 # What is Metal<sup>3</sup>?
 
