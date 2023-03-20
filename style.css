@@ -368,12 +368,6 @@ html .page-two .page-two_inner .page-two_inner2 .reason:hover {
 .hero2-section2 .hero2-section2_bottom {
   display: flex;
   flex-direction: row;
-  /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
-  /* This container is needed to position the front and back side */
-  /* Do an horizontal flip when you move the mouse over the flip box container */
-  /* Position the front and back side */
-  /* Style the front side (fallback if image is missing) */
-  /* Style the back side */
 }
 .hero2-section2 .hero2-section2_top .flip-card,
 .hero2-section2 .hero2-section2_bottom .flip-card {
@@ -382,7 +376,7 @@ html .page-two .page-two_inner .page-two_inner2 .reason:hover {
   height: 150px;
   border: solid 8px white;
   border-radius: 4em;
-  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  perspective: 1000px;
 }
 .hero2-section2 .hero2-section2_top .flip-card-inner,
 .hero2-section2 .hero2-section2_bottom .flip-card-inner {
@@ -407,7 +401,7 @@ html .page-two .page-two_inner .page-two_inner2 .reason:hover {
   width: 100%;
   border-radius: 3.5em;
   height: 100%;
-  -webkit-backface-visibility: hidden; /* Safari */
+  -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
 }
 .hero2-section2 .hero2-section2_top .flip-card-front,
