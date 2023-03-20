@@ -70,9 +70,9 @@
             <h1>Reason 1</h1>
             <p>
               There are a number of great open-source tools for bare metal host
-              provisioning, including Ironic. Metal3 aims to build on these
-              technologies to provide a Kubernetes native API for managing bare
-              metal hosts via a provisioning stack that is also running on
+              provisioning, including Ironic. Metal<sup>3</sup> aims to build on
+              these technologies to provide a Kubernetes native API for managing
+              bare metal hosts via a provisioning stack that is also running on
               Kubernetes.
             </p>
           </div>
@@ -80,7 +80,7 @@
             <h1>Reason 2</h1>
             <p>
               The project is also building integration with the Kubernetes
-              cluster-api project, allowing Metal3 to be used as an
+              cluster-api project, allowing Metal<sup>3</sup> to be used as an
               infrastructure backend for Machine objects from the Cluster API.
             </p>
           </div>
@@ -89,8 +89,8 @@
           <div class="reason">
             <h1>Reason 3</h1>
             <p>
-              Metal3 is itself a Kubernetes application, so it runs on
-              Kubernetes and uses Kubernetes resources and APIs as its
+              Metal<sup>3</sup> is itself a Kubernetes application, so it runs
+              on Kubernetes and uses Kubernetes resources and APIs as its
               interface.
             </p>
           </div>
@@ -101,7 +101,7 @@
               management with Kubernetes. You can enroll your bare metal
               machines, and then, if you like, deploy Kubernetes clusters to
               them. From there, operating and upgrading your Kubernetes clusters
-              can be handled by Metal3.
+              can be handled by Metal<sup>3</sup>.
             </p>
           </div>
         </div>
@@ -109,10 +109,31 @@
     </div>
     <div class="page-three" id="components">
       <h1>Metal<sup>3</sup> Components</h1>
+      <p>(Click on a Component to Learn More)</p>
       <div class="page-three_flex">
-        <div class="card">Bare Metal Operator</div>
-        <div class="card">cluster-api-provider-metal3</div>
-        <div class="card">Ironic Image</div>
+        <div class="card">
+          <a
+            href="https://docs.google.com/document/d/1x_SOWe20AYc-BdrMkoMtONa2LrDaKfJy8cKxvDmJJeY/edit?usp=sharing"
+            target="_blank"
+            >Bare Metal Operator</a
+          >
+        </div>
+        <div class="card">
+          <a
+            href="https://docs.google.com/document/d/1FRCOVnxrIvB9bRc6O4sqC4t3OmKjUl6eZuu-BjjhViM/edit"
+            target="_blank
+          "
+          >
+            cluster-api-provider-metal3</a
+          >
+        </div>
+        <div class="card">
+          <a
+            href="https://docs.google.com/document/d/1y6jCPMHSrzuh1Px8AD_e9HjlxzUhH15numyMxrbeyUI/edit?usp=sharing"
+          >
+            Ironic Image</a
+          >
+        </div>
       </div>
       <div class="page-three_social">
         <a href="https://metal3.io/" target="_blank">Official Website</a>
@@ -124,6 +145,169 @@
         >
         <a href="https://github.com/metal3-io" target="_blank">Repository</a>
       </div>
+    </div>
+    <div class="navbar2">
+      <div class="navbar2-center">
+        <a href="#hero2-section1">How Metal<sup>3</sup> Works</a>
+        <a href="#hero2-section2">Metal<sup>3</sup> Deliverables</a>
+        <a href="#hero2-section3">Goals / Future Plans</a>
+      </div>
+    </div>
+    <div class="hero2-section1" id="hero2-section1">
+      <h1>Metal<sup>3</sup> Working</h1>
+      <p>
+        When BMO starts, it accepts Ironic and Inspector endpoints and
+        credentials as well as deploys kernel/ramdisk URLs via environment
+        variables. Ironic and Inspector are supposed to be started and managed
+        separately.
+        <br />
+        <br />
+        Once started, the controller manages the BareMetalHost (BMH) CRD by
+        synchronising the changes between Kubernetes and Ironic. BMO expects to
+        completely own the nodes defined as BMH.
+        <br />
+        <br />
+        It creates them in Ironic if they are missing, updates them if they
+        don't match the information it has, provisions if there is an image,
+        de-provisions if the image is removed, and deletes if the BMH is deleted
+        (or detached).
+      </p>
+    </div>
+
+    <div class="hero2-section2" id="hero2-section2">
+      <h1 class="heading">Metal<sup>3</sup> Deliverables</h1>
+      <p class="heading-subtitle">(Hover over the cards to See More)</p>
+      <div class="hero2-section2_top">
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <h1>BareMetalOperator</h1>
+            </div>
+            <div class="flip-card-back">
+              <a
+                href="https://github.com/metal3-io/baremetal-operator"
+                target="_blank"
+                >See More</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <h1>CAPM3</h1>
+            </div>
+            <div class="flip-card-back">
+              <a
+                href="https://github.com/metal3-io/cluster-api-provider-metal3"
+                target="_blank"
+                >See More</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <h1>Ironic Image</h1>
+            </div>
+            <div class="flip-card-back">
+              <a
+                href="https://github.com/metal3-io/ironic-image"
+                target="_blank"
+                >See More</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <h1>IPAM</h1>
+            </div>
+            <div class="flip-card-back">
+              <a
+                href="https://github.com/metal3-io/ip-address-manager"
+                target="_blank"
+                >See More</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="hero2-section2_bottom">
+        <!-- here -->
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <h1>Harware Controller</h1>
+            </div>
+            <div class="flip-card-back">
+              <a
+                href="https://github.com/metal3-io/hardware-classification-controller"
+                target="_blank"
+                >See More</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <h1>IPA Downloader</h1>
+            </div>
+            <div class="flip-card-back">
+              <a
+                href="https://github.com/metal3-io/ironic-ipa-downloader"
+                target="_blank"
+                >See More</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <h1>Dev Env</h1>
+            </div>
+            <div class="flip-card-back">
+              <a
+                href="https://github.com/metal3-io/metal3-dev-env"
+                target="_blank"
+                >See More</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <h1>Ironic Client</h1>
+            </div>
+            <div class="flip-card-back">
+              <a
+                href="https://github.com/metal3-io/ironic-client"
+                target="_blank"
+                >See More</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="hero2-section3" id="hero2-section3">
+      <h1>Future Plans / Goal & Mission</h1>
+      <p>
+        There is a lot of work planned in Metal<sup>3</sup>. In the near future,
+        Metal<sup>3</sup>
+        wants to bring BIOS and RAID support to BMO, previews of these features
+        are already available.
+        <br />
+        <br />
+        Looking further into the future, there is a possibility of dropping
+        MySQL in favour of either SQLite or anything else that is not a
+        full-featured database.
+      </p>
     </div>
     <div class="footer">
       <div class="footer-left">
