@@ -49,9 +49,10 @@
           <h1>What is Metal<sup>3</sup>?</h1>
           <p class="para">
             Metal<sup>3</sup> is a BareMetal host provisioning service for
-            Kubernetes. It is a self-hosted, self-managed, CNCF sandbox project
-            and is also an infrastructure provider for the Cluster API. (K8S SIG
-            life-cycle)
+            Kubernetes.
+            <br />
+            It is a self-hosted, self-managed, CNCF sandbox project and is also
+            an infrastructure provider for the Cluster API. (K8S SIG life-cycle)
           </p>
         </div>
         <div class="page-one-right">
@@ -70,10 +71,11 @@
             <h1>Reason 1</h1>
             <p>
               There are a number of great open-source tools for bare metal host
-              provisioning, including Ironic. Metal<sup>3</sup> aims to build on
-              these technologies to provide a Kubernetes native API for managing
-              bare metal hosts via a provisioning stack that is also running on
-              Kubernetes.
+              provisioning, including Ironic.
+              <br />
+              Metal<sup>3</sup> aims to build on these technologies to provide a
+              Kubernetes native API for managing bare metal hosts via a
+              provisioning stack that is also running on Kubernetes.
             </p>
           </div>
           <div class="reason">
@@ -98,10 +100,12 @@
             <h1>Reason 4</h1>
             <p>
               The Metal project provides components for bare metal host
-              management with Kubernetes. You can enroll your bare metal
-              machines, and then, if you like, deploy Kubernetes clusters to
-              them. From there, operating and upgrading your Kubernetes clusters
-              can be handled by Metal<sup>3</sup>.
+              management with Kubernetes.
+              <br />
+              You can enroll your bare metal machines, and then, if you like,
+              deploy Kubernetes clusters to them. From there, operating and
+              upgrading your Kubernetes clusters can be handled by
+              Metal<sup>3</sup>.
             </p>
           </div>
         </div>
@@ -130,6 +134,7 @@
         <div class="card">
           <a
             href="https://docs.google.com/document/d/1y6jCPMHSrzuh1Px8AD_e9HjlxzUhH15numyMxrbeyUI/edit?usp=sharing"
+            target="_blank"
           >
             Ironic Image</a
           >
@@ -160,6 +165,7 @@
         credentials as well as deploys kernel/ramdisk URLs via
         <a
           href="https://github.com/metal3-io/baremetal-operator/blob/main/docs/configuration.md"
+          target="_blank"
           >environment variables</a
         >
         . Ironic and Inspector are supposed to be started and managed
@@ -168,17 +174,22 @@
         <br />
         Once started, the controller manages the BareMetalHost (BMH) CRD by
         synchronising the changes between
-        <a href="https://kubernetes.io/docs/home/">Kubernetes</a>
+        <a href="https://kubernetes.io/docs/home/" target="_blank"
+          >Kubernetes</a
+        >
         and Ironic.
         <a
           href="https://docs.google.com/document/d/1x_SOWe20AYc-BdrMkoMtONa2LrDaKfJy8cKxvDmJJeY/edit?usp=sharing"
+          target="_blank"
           >BMO</a
         >
         expects to completely own the nodes defined as BMH.
         <br />
         <br />
         It creates them in
-        <a href="https://docs.openstack.org/ironic/latest/">Ironic</a>
+        <a href="https://docs.openstack.org/ironic/latest/" target="_blank"
+          >Ironic</a
+        >
         if they are missing, updates them if they don't match the information it
         has, provisions if there is an image, de-provisions if the image is
         removed, and deletes if the BMH is deleted (or detached).
@@ -314,20 +325,22 @@
         wants to bring
         <a
           href="https://github.com/metal3-io/metal3-docs/blob/master/design/baremetal-operator/bios-config.md"
+          target="_blank"
           >BIOS</a
         >
         and
         <a
           href="https://github.com/metal3-io/metal3-docs/blob/master/design/baremetal-operator/raid-api.md"
+          target="_blank"
           >RAID</a
         >
         support to BMO, previews of these features are already available.
         <br />
         <br />
         Looking further into the future, there is a possibility of dropping
-        <a href="https://www.mysql.com/">MySQL</a>
+        <a href="https://www.mysql.com/" target="_blank">MySQL</a>
         in favour of either
-        <a href="https://sqlite.org/">SQLite</a>
+        <a href="https://sqlite.org/" target="_blank">SQLite</a>
         or anything else that is not a full-featured database.
       </p>
     </div>
