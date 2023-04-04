@@ -461,7 +461,7 @@
 @media only screen and (max-width: 1500px) {
   .pagetwo {
     background: var(--dark);
-    height: 160vh;
+    height: 180vh;
     flex-direction: column;
   }
 
@@ -486,7 +486,7 @@
   }
 
   .pagetwo .pagetwo-right .pagetwo-right_content {
-    margin-top: 30px;
+    margin-top: 60px;
     padding: 20px;
     width: 350px;
     height: 420px;
@@ -617,7 +617,7 @@
 @media only screen and (max-width: 1500px) {
   .pagethree {
     background: var(--light);
-    height: 180vh;
+    height: 200vh;
     flex-direction: column;
   }
 
@@ -648,7 +648,7 @@
   }
 
   .pagethree .pagethree-right {
-    margin-top: 30px;
+    margin-top: 60px;
     margin-left: 0px;
   }
 
@@ -762,7 +762,7 @@
 @media only screen and (max-width: 1500px) {
   .pagefour {
     background: var(--dark);
-    height: 180vh;
+    height: 200vh;
     flex-direction: column;
   }
 
@@ -782,7 +782,7 @@
 
   .pagefour .pagefour-right {
     width: 350px;
-    margin-top: 30px;
+    margin-top: 60px;
     margin-left: 0px;
   }
 
@@ -906,7 +906,7 @@
 @media only screen and (max-width: 1500px) {
   .pagefive {
     background: var(--light);
-    height: 170vh;
+    height: 190vh;
     flex-direction: column;
   }
 
@@ -927,7 +927,7 @@
   }
 
   .pagefive .pagefive-right {
-    margin-top: 50px;
+    margin-top: 80px;
     margin-right: 0px;
   }
 

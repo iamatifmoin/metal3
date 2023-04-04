@@ -1,5 +1,6 @@
 # Guidelines for the Mentors
 
+- For best viewing experience, view on `Google Chrome` or `Mozilla FireFox` with `100%` zoom.
 - I have updated the design of the website to give it a more professional look and feel.
 - This is the design now:
   [after.webm](https://user-images.githubusercontent.com/97212195/229816919-d7eec5f5-a81d-4801-89f8-b3477fe60570.webm)
@@ -7,7 +8,6 @@
   [before.webm](https://user-images.githubusercontent.com/97212195/229815499-4bf374dd-7709-41ee-aeb9-730f91fd7a23.webm)
 - I have made the website fully responsive.
 - Screenshots can be found at the end of this README.md file.
-- For best viewing experience, view on `Google Chrome` with `100%` zoom.
 
 <br>
 
@@ -42,7 +42,7 @@ It is a self-hosted, self-managed, CNCF sandbox project and is also an infrastru
 # Metal<sup>3</sup> Components
 
 | S.No. | Name                               |
-| ----- | -----------------------------------|
+| ----- | ---------------------------------- |
 | 1     | BareMetal Operator                 |
 | 2     | cluster-api-provider-metal3        |
 | 3     | BareMetal Host                     |
