@@ -59,7 +59,6 @@
 
 .hamburger {
   display: block;
-  /* position: relative; */
   z-index: 1;
   user-select: none;
   appearance: none;
@@ -79,7 +78,6 @@
   width: 33px;
   height: 4px;
   margin-bottom: 5px;
-  /* position: relative; */
   background-color: var(--light);
   border-radius: 6px;
   z-index: 1;
@@ -153,7 +151,6 @@
   color: white;
   text-decoration: none;
   padding: 12px 16px;
-  /* background-color: var(--primary); */
   transition: 0.3s;
 }
 
@@ -183,12 +180,13 @@
 /* hero styling-start */
 
 .hero {
-  /* border-radius: 6em; */
-  background: linear-gradient(to right,
-      var(--dark) 0%,
-      var(--dark) 65%,
-      var(--light) 65%,
-      var(--light) 100%);
+  background: linear-gradient(
+    to right,
+    var(--dark) 0%,
+    var(--dark) 65%,
+    var(--light) 65%,
+    var(--light) 100%
+  );
   width: 100%;
   height: 90vh;
   margin-top: 4.8em;
@@ -220,9 +218,6 @@
   height: 100%;
   display: grid;
   place-items: center;
-  /* position: relative; */
-  /* top: 200px; */
-  /* right: 3px; */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -239,8 +234,6 @@
 }
 
 .hero-right .wrapper p {
-  /* padding-top: 550px; */
-
   color: #fff;
   font-size: 90px;
   font-weight: 900;
@@ -255,8 +248,6 @@
 }
 
 .hero-right .wrapper .words {
-  /* padding-top: 550px; */
-
   background: transparent;
   overflow: hidden;
   height: 60vh;
@@ -309,11 +300,13 @@
 
 @media only screen and (max-width: 1500px) {
   .hero {
-    background: linear-gradient(to right,
-        var(--dark) 0%,
-        var(--dark) 50%,
-        var(--light) 50%,
-        var(--light) 100%);
+    background: linear-gradient(
+      to right,
+      var(--dark) 0%,
+      var(--dark) 50%,
+      var(--light) 50%,
+      var(--light) 100%
+    );
     flex-direction: column;
   }
 
@@ -322,11 +315,13 @@
   }
 
   .hero-left img {
-    background: linear-gradient(to right,
-        var(--dark) 0%,
-        var(--dark) 50%,
-        var(--light) 50%,
-        var(--light) 100%);
+    background: linear-gradient(
+      to right,
+      var(--dark) 0%,
+      var(--dark) 50%,
+      var(--light) 50%,
+      var(--light) 100%
+    );
   }
 
   .hero-right .wrapper p {
@@ -349,11 +344,13 @@
 /* pagetwo styling-start */
 
 .pagetwo {
-  background: linear-gradient(to right,
-      var(--light) 0%,
-      var(--light) 65%,
-      var(--dark) 65%,
-      var(--dark) 100%);
+  background: linear-gradient(
+    to right,
+    var(--light) 0%,
+    var(--light) 65%,
+    var(--dark) 65%,
+    var(--dark) 100%
+  );
   width: 100%;
   height: 90vh;
   display: flex;
@@ -363,8 +360,6 @@
 }
 
 .pagetwo .pagetwo-left {
-  /* position: relative; */
-  /* right: 15px; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -438,13 +433,10 @@
 }
 
 .pagetwo .pagetwo-right .pagetwo-right_content {
-  /* position: relative; */
-  /* padding: 70px 25px; */
   padding-left: 20px;
   padding-right: 20px;
   padding-top: 10px;
   padding-bottom: 20px;
-  /* right: 40px; */
   height: 300px;
   border-radius: 8px;
   box-shadow: 0px 12px 36.8px 9.2px rgba(0, 238, 196, 1);
@@ -460,13 +452,9 @@
   font-size: 2em;
   font-weight: 400;
   margin-bottom: 5px;
-  /* position: relative; */
-  /* bottom: 50px; */
 }
 
 .pagetwo .pagetwo-right .pagetwo-right_content p {
-  /* position: relative; */
-  /* bottom: 50px; */
   color: #93aebb;
 }
 
@@ -505,50 +493,18 @@
   }
 }
 
-/* @media only screen and (max-width: 768px) {
-  .pagetwo {
-    background: var(--dark);
-    height: 150vh;
-    flex-direction: column;
-  }
-
-  .pagetwo .pagetwo-left {
-    margin-top: 30px;
-    margin-left: 0;
-    margin-right: 0;
-    width: 500px;
-    max-width: 500px;
-    padding: 30px 10px;
-  }
-
-  .pagetwo .pagetwo-left .pagetwo-left_buttons button {
-    margin-bottom: 5px;
-  }
-
-  .pagetwo .pagetwo-right {
-    margin-right: 30px;
-    margin-left: 30px;
-    padding: 10px 0;
-  }
-
-  .pagetwo .pagetwo-right .pagetwo-right_content {
-    margin-top: 30px;
-    padding: 20px;
-    width: 450px;
-    height: 300px;
-  }
-} */
-
 /* pagetwo styling-end */
 
 /* pagethree styling-start */
 
 .pagethree {
-  background: linear-gradient(to right,
-      var(--dark) 0%,
-      var(--dark) 65%,
-      var(--light) 65%,
-      var(--light) 100%);
+  background: linear-gradient(
+    to right,
+    var(--dark) 0%,
+    var(--dark) 65%,
+    var(--light) 65%,
+    var(--light) 100%
+  );
   width: 100%;
   height: 90vh;
   display: flex;
@@ -558,7 +514,6 @@
 }
 
 .pagethree .pagethree-left {
-  /* margin-left: 0 auto; */
   margin-left: 60px;
   width: 800px;
 }
@@ -625,12 +580,9 @@
   border-radius: 8px;
   margin-left: 130px;
   padding: 10px 0;
-  /* position: relative; */
-  /* left: 30px; */
 }
 
 .pagethree .pagethree-right .pagethree-right_content {
-  /* padding: 70px 20px; */
   padding-top: 10px;
   padding-bottom: 20px;
   padding-left: 20px;
@@ -646,13 +598,9 @@
   font-size: 2em;
   font-weight: 400;
   margin-bottom: 5px;
-  /* position: relative; */
-  /* bottom: 50px; */
 }
 
 .pagethree .pagethree-right .pagethree-right_content p {
-  /* position: relative; */
-  /* bottom: 50px; */
   color: #93aebb;
 }
 
@@ -713,69 +661,20 @@
   .pagethree .pagethree-right .pagethree-right_content h1 {
     font-size: 30px;
   }
-
 }
-
-/* @media only screen and (max-width: 768px) {
-  .pagethree {
-    background: var(--light);
-    height: 170vh;
-    flex-direction: column;
-  }
-
-  .pagethree .pagethree-left {
-    margin-top: 0px;
-    margin-bottom: 30px;
-    border-radius: 8px;
-    margin-left: 0;
-    width: 500px;
-    max-width: 500px;
-  }
-
-  .feature-wrapper {
-    padding: 40px 25px;
-  }
-
-  .feature {
-    gap: 10px;
-  }
-
-  .feature-wrapper h1 {
-    font-size: 30px;
-    left: 0;
-  }
-
-  .feature__item {
-    max-width: calc(53% - 20px);
-  }
-
-  .pagethree .pagethree-right {
-    margin-top: 30px;
-    margin-left: 0px;
-  }
-
-  .pagethree .pagethree-right .pagethree-right_content {
-    padding-top: 20px;
-    width: 400px;
-    height: 300px;
-  }
-
-  .pagethree .pagethree-right .pagethree-right_content h1 {
-    font-size: 30px;
-  }
-
-} */
 
 /* pagethree styling-end */
 
 /* pagefour styling-start */
 
 .pagefour {
-  background: linear-gradient(to right,
-      var(--light) 0%,
-      var(--light) 65%,
-      var(--dark) 65%,
-      var(--dark) 100%);
+  background: linear-gradient(
+    to right,
+    var(--light) 0%,
+    var(--light) 65%,
+    var(--dark) 65%,
+    var(--dark) 100%
+  );
   width: 100%;
   height: 90vh;
   display: flex;
@@ -785,8 +684,6 @@
 }
 
 .pagefour .pagefour-left {
-  /* position: relative; */
-  /* right: 20px; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -795,7 +692,6 @@
   border-radius: 8px;
   margin-left: 25px;
   margin-right: 50px;
-  /* margin-right: 50px; */
   width: 1000px;
   max-width: 1000px;
 }
@@ -837,14 +733,10 @@
 }
 
 .pagefour .pagefour-right .pagefour-right_content {
-  /* position: relative; */
-  /* padding: 70px 25px; */
   padding-top: 40px;
   padding-bottom: 20px;
   padding-left: 20px;
   padding-right: 20px;
-  /* right: 70px; */
-  /* margin-left: 60px; */
   margin-right: 80px;
   height: 300px;
   border-radius: 8px;
@@ -860,9 +752,6 @@
   color: #fff;
   font-size: 2em;
   font-weight: 400;
-  /* margin-bottom: 10px; */
-  /* position: relative; */
-  /* bottom: 50px; */
 }
 
 .pagefour .pagefour-right .pagefour-right_content p {
@@ -905,57 +794,20 @@
   .pagefour .pagefour-right .pagefour-right_content h1 {
     font-size: 30px;
   }
-
 }
-
-/* @media only screen and (max-width: 768px) {
-  .pagefour {
-    background: var(--dark);
-    height: 170vh;
-    flex-direction: column;
-  }
-
-  .pagefour .pagefour-left {
-    padding: 0px 10px;
-    position: relative;
-    bottom: 20px;
-    margin-left: 0px;
-    margin-right: 0px;
-    width: 500px;
-    max-width: 500px;
-  }
-
-  .pagefour .pagefour-left .pagefour-left_content h1 {
-    font-size: 30px;
-  }
-
-  .pagefour .pagefour-right {
-    width: 350px;
-    margin-top: 30px;
-    margin-left: 0px;
-  }
-
-  .pagefour .pagefour-right .pagefour-right_content {
-    width: 350px;
-    margin-right: 0px;
-  }
-
-  .pagefour .pagefour-right .pagefour-right_content h1 {
-    font-size: 30px;
-  }
-
-} */
 
 /* pagefour styling-end */
 
 /* pagefive styling-start */
 
 .pagefive {
-  background: linear-gradient(to right,
-      var(--dark) 0%,
-      var(--dark) 65%,
-      var(--light) 65%,
-      var(--light) 100%);
+  background: linear-gradient(
+    to right,
+    var(--dark) 0%,
+    var(--dark) 65%,
+    var(--light) 65%,
+    var(--light) 100%
+  );
   width: 100%;
   height: 90vh;
   display: flex;
@@ -967,8 +819,6 @@
 .pagefive .pagefive-left {
   margin: 0 auto;
   width: 800px;
-  /* position: relative; */
-  /* right: 15px; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -1017,15 +867,11 @@
   border-radius: 8px;
   margin-right: 100px;
   padding-top: 20px;
-  /* padding-bottom: 20px; */
   padding-left: 20px;
   padding-right: 20px;
-  /* position: relative; */
-  /* left: 30px; */
 }
 
 .pagefive .pagefive-right .pagefive-right_content {
-  /* padding: 70px 25px; */
   padding-top: 20px;
   padding-bottom: 20px;
   padding-left: 20px;
@@ -1041,13 +887,9 @@
   font-size: 2em;
   font-weight: 400;
   margin-bottom: 5px;
-  /* position: relative; */
-  /* bottom: 50px; */
 }
 
 .pagefive .pagefive-right .pagefive-right_content p {
-  /* position: relative; */
-  /* bottom: 50px; */
   color: #93aebb;
 }
 
@@ -1092,42 +934,7 @@
   .pagefive .pagefive-right .pagefive-right_content h1 {
     font-size: 35px;
   }
-
 }
-
-/* @media only screen and (max-width: 768px) {
-  .pagefive {
-    background: var(--light);
-    height: 160vh;
-    flex-direction: column;
-  }
-
-  .pagefive .pagefive-left {
-    margin-left: 10px;
-    margin-right: 10px;
-    width: 500px;
-    max-width: 500px;
-    border-radius: 8px;
-  }
-
-  .pagefive .pagefive-left .pagefive-left_content {
-    padding: 40px 25px;
-  }
-
-  .pagefive .pagefive-left .pagefive-left_content h1 {
-    font-size: 35px;
-  }
-
-  .pagefive .pagefive-right {
-    margin-top: 50px;
-    margin-right: 0px;
-  }
-
-  .pagefive .pagefive-right .pagefive-right_content h1 {
-    font-size: 35px;
-  }
-
-} */
 
 /* pagefive styling-end */
 
@@ -1166,7 +973,7 @@
   background-color: var(--primary);
 }
 
-@media only screen and (max-width:1500px) {
+@media only screen and (max-width: 1500px) {
   .footer .container p a {
     font-size: 16px;
   }
