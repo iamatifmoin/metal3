@@ -1,9 +1,10 @@
 # Guidelines for the Mentors
 
-- I have updates the design of the website to give it a more professional look and feel.
-- [Before](https://user-images.githubusercontent.com/97212195/229815499-4bf374dd-7709-41ee-aeb9-730f91fd7a23.webm) | ![After](./assets/after.webm)
-- [before.webm](https://user-images.githubusercontent.com/97212195/229815499-4bf374dd-7709-41ee-aeb9-730f91fd7a23.webm)
+- I have updated the design of the website to give it a more professional look and feel.
+- This is the design now:
 
+- This was the design earlier:
+  [before.webm](https://user-images.githubusercontent.com/97212195/229815499-4bf374dd-7709-41ee-aeb9-730f91fd7a23.webm)
 - I have made the website fully responsive.
 - Screenshots can be found at the end of this README.md file.
 - For best viewing experience, view on `Google Chrome` with `100%` zoom.
