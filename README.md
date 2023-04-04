@@ -2,7 +2,7 @@
 
 - I have updated the design of the website to give it a more professional look and feel.
 - This is the design now:
-
+  [after.webm](https://user-images.githubusercontent.com/97212195/229816919-d7eec5f5-a81d-4801-89f8-b3477fe60570.webm)
 - This was the design earlier:
   [before.webm](https://user-images.githubusercontent.com/97212195/229815499-4bf374dd-7709-41ee-aeb9-730f91fd7a23.webm)
 - I have made the website fully responsive.
@@ -41,11 +41,14 @@ It is a self-hosted, self-managed, CNCF sandbox project and is also an infrastru
 
 # Metal<sup>3</sup> Components
 
-| S.No. | Name                        |
-| ----- | --------------------------- |
-| 1     | BareMetal Operator          |
-| 2     | cluster-api-provider-metal3 |
-| 3     | Ironic Image                |
+| S.No. | Name                               |
+| ----- | -----------------------------------|
+| 1     | BareMetal Operator                 |
+| 2     | cluster-api-provider-metal3        |
+| 3     | BareMetal Host                     |
+| 4     | Hardware Classification Controller |
+| 4     | IP Address Manager                 |
+| 4     | Metal3 Hardware Inventory Record   |
 
 See more about Metal<sup>3</sup> Components [here](https://metal3.io/documentation.html).
 
